@@ -1,0 +1,214 @@
+a span{
+  color: blueviolet;
+}
+a span1{
+  color: aqua;
+}
+.navbar-brand{
+  font-style: italic;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.collapse{
+  font-style: italic;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+img{
+  height: 600px;
+}
+body{
+  background-color: #000000;
+}
+.featurette-heading{
+  color: #FF8C00;
+}
+.lead{
+  color: #ffae00;
+  /* background-color: black;
+  border-style: dashed; */
+  height: 253px;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 35px;
+  box-sizing: content-box;
+  box-decoration-break: clone;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.featurette-heading{
+  background-color: darkred;
+  height: 43px;
+  margin-right: 486px;
+  margin-left: 3px;
+}
+.card-img-top{
+  height: 278px;
+}
+.card{
+  margin-left: 1%;
+}
+.theme {
+  background-color: rgb(255, 196, 0);
+}
+
+.theme .title {
+  color: #fff;
+}
+
+.services-center {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(21rem, 1fr));
+  gap: 2rem;
+}
+
+.service {
+  color: #fff;
+  background-color: #111;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 1rem;
+  transition: all 300ms ease-in-out;
+}
+
+.service span {
+  color: #dd9a05;
+  font-size: 4rem;
+  transition: all 300ms ease-in-out;
+}
+
+.service h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.service p {
+  font-size: 1.4rem;
+  color: #f1f1f1;
+}
+
+.service:hover {
+  background-color: #dd9a05;
+}
+
+.service:hover span {
+  color: #fff;
+}
+.container{
+  color: rgb(255, 166, 0);
+  font-style: italic;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.carousel-caption{
+  font-style: italic;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer {
+  background-color: rgb(22, 21, 21);
+  padding: 1rem 1rem;
+  text-align: center;
+  font-style: italic;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+footer p {
+  color: #fff;
+}
+
+footer p span {
+  color: #dd9a05;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  background: #222;
+}
+.container .heading{
+  font-size: 3rem;
+  padding: 2rem 0;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-shadow: 0.5rem 1rem #000;
+  color: #fff;
+}
+.container .music-container{
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+}
+.container .music-container .box{
+  height: 16rem;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  background: #f9f9f9;
+  border-radius: 1rem;
+  box-shadow: 0.5rem 1rem #000;
+  overflow: hidden;
+  margin: 2rem;
+}
+.container .music-container .box .image{
+  height: 100%;
+  width: 25%;
+}
+.container .music-container .box .image img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.container .music-container .box .music{
+  width: 75%;
+}
+.container .music-container .box .music audio{
+  width: 100%;
+  outline: none;
+}
+.container .music-container .box .music audio::-webkit-media-controls-eclosure{
+  background: none;
+}
+@media (max-width:600px){
+  .container .music-container .box{
+    height: 27rem;
+    width: 90%;
+    flex-flow: column;
+  }
+  .container .music-container .box .image{
+    height: 80%;
+    width: 100%;
+  }
+  .container .music-container .box .music{
+    height: 20%;
+    width: 100%;
+  }
+}
